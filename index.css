@@ -1,0 +1,402 @@
+*{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Container Start */
+.container{
+    display: flex;
+    justify-content: end;
+    /* border: 3px solid black; */
+    width: 1530px;
+    height: 584px;
+    margin: 0 auto;
+    background: #FFE2E0;
+  
+   
+   
+
+}
+.right{
+    /* border: 1px solid black; */
+    width: 642px;
+    height: 535px;
+    background: #FFE2E0;
+  
+
+
+}
+.left {
+  margin: 0px 550px 0px 10px;
+  margin-top: 90px;
+  
+ 
+ 
+  
+  /* width: 642px;
+  height: 535px; */
+}
+.container .right ,img{
+    width: 642px;
+    height: 535px;
+   flex-shrink: 0;
+ 
+   
+
+}
+.shopbtn {
+width: 192px;
+height: 52px;
+margin-top: 95px;
+border-radius: 8px;
+background-color: #206363;
+color: #FFFFFF;
+}
+.container .left ,p{
+    width: 453px;
+height: 81px;
+color: rgb(117, 117, 117)
+
+/* color:  #212121; */
+
+}
+.container .left ,h1{
+width: 415px;
+height: 68px;
+top: 346px;
+left: 202px;
+color:  #212121;
+font-family: 'Rubik', sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.container .left ,h2{
+color: #DF4244;
+width: 88px;
+height: 41px;
+top: 305px;
+left: 202px;
+font-family: 'Rubik', sans-serif;
+font-size: 24px;
+font-weight: 500;
+line-height: 41px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+.btn1{
+    width: 12px;
+height: 12px;
+flex-shrink: 0;
+background-color: #20636340;
+}
+.btn2{
+    width: 12px;
+height: 12px;
+flex-shrink: 0;
+fill: rgba(32, 99, 99, 0.25);
+color: #20636340;
+background-color: #20636340;
+}
+.btn3{
+    width: 26px;
+height: 12px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #DF4244;
+}
+/* Container End */
+
+/* /// Middle Start */
+
+.middle .image{
+    width: 1530px;
+    height: 144px;
+    /* background: #F7F7F7; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 240px;
+  
+  
+    
+}
+.middle .image img{
+ width: 48px;
+height: 48px;
+flex-shrink: 0;
+color: #007878;
+
+
+}
+.middle .image p{
+    margin-top: 10px;
+   
+    color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%; /* 27.2px */
+color: #000000;
+
+
+}
+
+/* //Middle End */
+/* Bags Start */
+/* .bags{
+    border: 4px solid black;
+    display: flex;
+    justify-content: space-around;
+    width: 1130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 80px 0 96px 202px;
+    position: relative;
+ 
+  
+}
+.bag1{
+border: 3px solid black;
+width: 264px;
+height: 162px;
+border-radius: 8px;
+background: #F5F5F5;
+margin-bottom: 25px;
+position: relative;
+}
+.bag1 img{
+    width: 163px;
+height: 157px;
+margin-left: 90px;
+margin-bottom: 300px;
+position: absolute;
+right: 0;
+bottom: 0;
+
+}
+.bag1 p{
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%; 
+margin: 24px 0 0 24px;
+
+}
+.bag2 {
+ border: 3px solid black;
+width: 264px;
+ height: 162px;
+border-radius: 8px;
+ background: #F5F5F5;
+ margin-bottom: 25px;
+position: relative;
+}
+.bag2 p{
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%; 
+margin: 24px 0 0 24px;
+}
+.bag2 img{
+    width: 180px;
+height: 114px;
+margin-left: 90px;
+margin-bottom: 300px;
+
+}
+
+.bag3{
+    border: 3px solid black;
+    width: 264px;
+height: 162px;
+flex-shrink: 0;
+margin-bottom: 25px;
+position: relative;
+
+margin-bottom: 150px;
+}
+.bag3 p{
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%; 
+margin: 24px 0 0 24px;
+}
+.bag3 img{
+    border: 3px solid black;
+    width: 207px;
+    height: 231px;
+    flex-shrink: 0;
+    margin-left: 90px;
+
+    
+  
+}
+.bag4{
+    border: 3px solid black;
+    width: 264px;
+height: 162px;
+flex-shrink: 0;
+border-radius: 8px;
+    background: #f5f5f5;
+    position: relative;
+    margin-bottom: 25px;
+
+}
+.bag4 p{
+   
+    color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 170%; 
+margin: 24px 0 0 24px;
+}
+.bag4 img{
+    width: 167px;
+height: 123px;
+position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.bags .swipp_btn{
+    background-color: white;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 2px solid #f5f5f5;
+    position: absolute;
+    top: 45%;
+    right: -1%;
+  } */
+  /* /// Maine olcu vermek */
+  /* .main {
+    width: 1530px;
+    height: 4136px;
+    margin: 0 auto;
+  } */
+.container .bags {
+    width: 1130px;
+    gap: 20px;
+    margin: 80px 0 96px 202px;
+    position: relative;
+    margin-right: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+.container .bags .box {
+    width: 264px;
+    height: 162px;
+    margin-right: 21px;
+    border-radius: 8px;
+    background: #f5f5f5;
+    position: relative;
+   
+  }
+.container .bags .box p {
+    margin: 22px 0 0 22px;
+  }
+.container .bags .box img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 180px;
+    height: 114px;
+  
+  }
+
+
+/* bags End */
+
+/* Featured Products Start */
+.Products .featured{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    gap: 20px;
+}
+.Products .featured img{
+width: 20px;
+height: 20px;
+top: 1309px;
+left: 1329px;
+padding: 5px, 8.33px, 5px, 6.67px;
+}
+.Products .featured p{
+    margin-left: 150px;
+}
+.allproducts1{
+width: 360px;
+height: 508px;
+top: 1358px;
+left: 201px;
+border-radius: 8px;
+border: 3px solid black;
+
+}
+.allproducts1 .btn1{
+width: 79px;
+height: 32px;
+top: 1374px;
+left: 217px;
+border-radius: 8px;
+background-color: #43D167;
+color: #FFFFFF;
+margin: 5px;
+
+}
+.allproducts1 .btn2{
+width: 18.33px;
+height: 16.5px;
+top: 2.75px;
+left: 1.83px;
+border: 2px;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+.card-img-top{
+border:1px solid black;
+width: 218px;
+height: 243px;
+flex-shrink: 0;
+margin-top: 10px;
+}
+.cart-text{
+width: 302px;
+height: 54px;
+top: 1658px;
+left: 225px;
+
+}
+.add-to-card{
+    margin: 0 auto;
+}
+/* .card-body{} */
+    /* border: 3px solid red; */
